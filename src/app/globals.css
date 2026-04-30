@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Markdown table styling */
+.kwsp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.kwsp-prose p + p { margin-top: 0.4rem; }
+
 /* Thin custom scrollbar for the chat area */
 ::-webkit-scrollbar {
   width: 5px;
